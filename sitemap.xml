@@ -6,7 +6,7 @@
 
     <!-- Home Page — highest priority, changes frequently -->
     <url>
-        <loc>https://your-domain.com/index.html</loc>
+        <loc>https://nourhan-ibrahim-atlam.github.io/Social-Media-Project/index.html</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
     <!-- Post Details — dynamic, excluded from indexing but listed for crawling -->
     <url>
-        <loc>https://your-domain.com/post-details.html</loc>
+        <loc>https://nourhan-ibrahim-atlam.github.io/Social-Media-Project/post-details.html</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.7</priority>
@@ -22,7 +22,7 @@
 
     <!-- Profile Page — user-specific, moderate priority -->
     <url>
-        <loc>https://your-domain.com/Profile.html</loc>
+        <loc>https://nourhan-ibrahim-atlam.github.io/Social-Media-Project/Profile.html</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

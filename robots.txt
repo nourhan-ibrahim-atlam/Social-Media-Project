@@ -1,6 +1,6 @@
 # ==========================================
 # robots.txt — M&N Media
-# https://your-domain.com/robots.txt
+# https://nourhan-ibrahim-atlam.github.io/Social-Media-Project/robots.txt
 # ==========================================
 
 # Allow all well-behaved crawlers
@@ -21,4 +21,4 @@ Disallow: /tmp/
 Disallow: /logs/
 
 # Sitemap location
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://nourhan-ibrahim-atlam.github.io/Social-Media-Project/sitemap.xml
