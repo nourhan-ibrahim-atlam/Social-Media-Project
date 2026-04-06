@@ -103,7 +103,7 @@ M&N-Media/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/mn-media.git
+git clone https://github.com/nourhan-ibrahim-atlam/Social-Media-Project
 
 # 2. Navigate into the project
 cd mn-media
