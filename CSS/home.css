@@ -1,0 +1,44 @@
+.post .head-card img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-body input {
+    width: 95%;
+    outline: none;
+}
+
+.tag {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.add-post {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    bottom: 5%;
+    right: 3%;
+    background-color: #fff;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+    display: none; 
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-post i {
+    color: blueviolet;
+}
+
+.add-post:hover {
+    background-color: #f6f6f6;
+    opacity: 0.8;
+    transition: all 0.8s ease-in-out;
+}
+
+.comments {
+    background-color: #ede9fe;
+    padding: 10px;
+}

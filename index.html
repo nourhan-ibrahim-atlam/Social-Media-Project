@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>M&N Media — Social Platform</title>
+    <meta name="description" content="M&N Media is a modern social media platform where you can share posts, upload images, comment, and connect with others.">
+    <meta name="keywords" content="social media, posts, comments, M&N Media, community">
+    <meta name="author" content="M&N Media Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://your-domain.com/index.html">
+ 
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="M&N Media — Social Platform">
+    <meta property="og:description" content="Share posts, connect with people, and explore your community on M&N Media.">
+    <meta property="og:image" content="https://your-domain.com/Images/logo.jpg">
+    <meta property="og:url" content="https://your-domain.com/index.html">
+    <meta property="og:site_name" content="M&N Media">
+ 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="M&N Media — Social Platform">
+    <meta name="twitter:description" content="Share posts, connect with people, and explore your community on M&N Media.">
+    <meta name="twitter:image" content="https://your-domain.com/Images/logo.jpg">
+
+    <!-- Icon -->
+    <link rel="Icon" href="Images/logo.jpg">
+
+    <!-- Bootsrap Library -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+
+    <!-- Axios Library -->
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/home.css">
+</head>
+<body>
+    <!-- ==== Modals ==== -->
+    <div id="modals"></div>
+    
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    
+    <!-- Posts -->
+    <main class="container mt-5">
+        <div class="d-flex justify-content-center">
+            <div class="col-9" id="posts">
+            </div>
+        </div>
+    </main>
+
+    <!-- Add Post -->
+    <div class="add-post" onclick="createPosts()">
+        <i class="bi bi-plus fs-3 fw-bold"></i>
+    </div>
+
+
+    <!-- JS Files -->
+     <script src="JS/generalDOM.js"></script>
+    <script src="JS/home.js"></script>
+    <script src="JS/login.js"></script>
+    <script src="JS/addPost.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ede9fe;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Home Page — highest priority, changes frequently -->
+    <url>
+        <loc>https://your-domain.com/index.html</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Post Details — dynamic, excluded from indexing but listed for crawling -->
+    <url>
+        <loc>https://your-domain.com/post-details.html</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Profile Page — user-specific, moderate priority -->
+    <url>
+        <loc>https://your-domain.com/Profile.html</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+</urlset>

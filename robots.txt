@@ -1,0 +1,24 @@
+# ==========================================
+# robots.txt — M&N Media
+# https://your-domain.com/robots.txt
+# ==========================================
+
+# Allow all well-behaved crawlers
+User-agent: *
+
+# Allow main pages
+Allow: /index.html
+Allow: /Profile.html
+Allow: /post-details.html
+Allow: /CSS/
+Allow: /Images/
+
+# Disallow development & build artifacts
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /tmp/
+Disallow: /logs/
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
